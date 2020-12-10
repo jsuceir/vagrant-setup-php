@@ -7,7 +7,7 @@ sudo apt-get update
 
 echo "--- Definindo Senha padrao para o MySQL e suas ferramentas ---"
 
-DEFAULTPASS="Jusceir2014@"
+DEFAULTPASS="$$$$$"
 sudo debconf-set-selections <<EOF
 mysql-server	mysql-server/root_password password $DEFAULTPASS
 mysql-server	mysql-server/root_password_again password $DEFAULTPASS
